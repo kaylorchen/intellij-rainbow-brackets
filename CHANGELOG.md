@@ -4,7 +4,7 @@ Since IntelliJ platform 2022.3, Rainbow Brackets has marked a "Freemium". Existi
 
 之前的功能仍然免费！只有新增加的高阶功能是付费的，不付费仍然可以使用。
 
-All features which are inside GitHub are free to use unless it needs lots of time to develop(e.g. Supporting new languages, Supporting old frameworks, etc.).
+All features which are inside GitHub are free to use unless they needs lots of time to develop(e.g. Supporting new languages, Supporting old frameworks, etc.).
 Non-free features are flagged with [paid] inside the changelog.
 A license can be bought at JetBrains Marketplace. And everyone has a 30 days trial license. Please try it before you buy it.
 **If you already contributed to this project(by writing PR or financial contribution), you can get a free license by contacting me at izhangzhihao@hotmail.com**
@@ -32,7 +32,7 @@ A license can be bought at JetBrains Marketplace. And everyone has a 30 days tri
 
 If your daily features are not in the Paid features list, you don't need to worry about it.
 Otherwise, you can get a notification when you open a file that is not freely supported by this plugin.
-You can try to get a 30 days trial license, which has all same features as the paid license.
+You can try to get a 30 days trial license, which has all the same features as the paid license.
 
 ## Future plans
 
@@ -43,6 +43,62 @@ Please check out [our plans for paid plugin](https://github.com/izhangzhihao/int
 Please check the latest screenshots [here](https://github.com/izhangzhihao/intellij-rainbow-brackets#screenshots).
 
 ## Change log
+
+<p>2024.2.3</p>
+<ul>
+    <li>Compatible with 2024.1</li>
+    <li>Add 30 seconds delay for enable Rainbow Variables and Scope Highlighting after the IDE startup to avoid IDE license module not initialized issue.</li>
+    <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2721">Scope highlighting does not work with Python decorated functions.</a></li>
+    <li>Regarding the "Do not ask" option for the register form pop-up</li>
+</ul>
+<br/>
+
+<p>2024.2.2</p>
+<ul>
+    <li>🎉<a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/Fleet.md">Fleet Support</a></li>
+    <li>Compatible with 2024.1 EAP</li>
+    <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2708">Make this plugin in-compatible with JetBrains Client / JetBrains Gateway(you only need this plugin installed on the HOST!)</a></li>
+    <li>Enhanced logic for language injection of XML/HTML/Vue when Scope Highlighting</li>
+</ul>
+<br/>
+
+<p>2024.2.1</p>
+<ul>
+    <li>Fix an issue in community version of intellij</li>
+</ul>
+<br/>
+
+<p>2024.2.0</p>
+<ul>
+    <li>Fix an issue when the IDE is installed using Flatpak</li>
+    <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2707">Jinja2 Mis-Paired Template Blocks</a></li>
+    <li>Feature <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2644">Advanced Scope Highlighting support for XML/HTML/Vue lang</a></li>
+</ul>
+<br/>
+
+<p>2024.1.0</p>
+<ul>
+    <li>Compatible with 2024.1 EAP</li>
+    <li>Fix Jinja support in Rider 2024.1 EAP</li>
+    <li>Support <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2652">Disable "What's new in Rainbow Brackets" via IDE configuration</a></li>
+</ul>
+<br/>
+
+<p>2023.3.9</p>
+<ul>
+    <li>Add Clang/CPP/Objective-C related files support in Clion(Nova) 2023.3 EAP</li>
+    <li>Fix Clang/CPP/Objective-C related files support in Rider</li>
+    <li>Fix C# support in Rider 2023.3 EAP</li>
+    <li>Fix Jinja support in PyCharm/Python plugin 2023.3 EAP</li>
+</ul>
+<br/>
+
+<p>2023.3.7</p>
+<ul>
+    <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2677">Jinja2 Template support</a></li>
+    <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2680">rainbow indent disappeared after editing code</a></li>
+</ul>
+<br/>
 
 <p>2023.3.6</p>
         <ul>
